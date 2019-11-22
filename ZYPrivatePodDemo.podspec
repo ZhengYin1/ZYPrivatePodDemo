@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'ZYPrivatePodDemo/Classes/**/*'
   
   s.requires_arc = false
-  s.requires_arc = ['ZYSafeArrayAndDictionary/Classes/NSObject+SafeSwizzle.m','ZYSafeArrayAndDictionary/Classes/ZYSafeUtilsManager.m']
+  s.requires_arc = ['ZYPrivatePodDemo/Classes/NSObject+SafeSwizzle.m','ZYPrivatePodDemo/Classes/ZYSafeUtilsManager.m']
   
   # s.resource_bundles = {
   #   'ZYPrivatePodDemo' => ['ZYPrivatePodDemo/Assets/*.png']
