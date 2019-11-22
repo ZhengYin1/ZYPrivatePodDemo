@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYPrivatePodDemo'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = '私有库测试demo.'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZYPrivatePodDemo/Classes/**/*'
   
-  s.requires_arc = false
-  s.requires_arc = ['ZYPrivatePodDemo/Classes/NSObject+SafeSwizzle.m','ZYPrivatePodDemo/Classes/ZYSafeUtilsManager.m']
+  s.requires_arc = true
+  #s.requires_arc = ['ZYPrivatePodDemo/Classes/NSObject+SafeSwizzle.m','ZYPrivatePodDemo/Classes/ZYSafeUtilsManager.m']
   
   # s.resource_bundles = {
   #   'ZYPrivatePodDemo' => ['ZYPrivatePodDemo/Assets/*.png']
